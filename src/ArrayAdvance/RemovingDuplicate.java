@@ -1,4 +1,5 @@
 //package ArrayBasic;
+package ArrayAdvance;
 
 public class RemovingDuplicate {
 	public static void main(String[] args) {

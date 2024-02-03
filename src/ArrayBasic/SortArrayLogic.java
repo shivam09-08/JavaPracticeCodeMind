@@ -1,4 +1,5 @@
 //package ArrayBasic;
+package ArrayBasic;
 
 public class SortArrayLogic {
 public static void main(String[] args) {

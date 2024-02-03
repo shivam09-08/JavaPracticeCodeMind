@@ -1,4 +1,5 @@
 //package ArrayBasic;
+package ArrayBasic;
 
 import java.util.Arrays;
 

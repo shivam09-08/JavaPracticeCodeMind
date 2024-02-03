@@ -1,4 +1,5 @@
 //package ArrayBasic;
+package ArrayBasic;
 
 public class SumOfArrayElement {
 	
