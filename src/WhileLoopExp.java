@@ -1,4 +1,4 @@
-package conditionStatement;
+//package conditionStatement;
 
 public class WhileLoopExp {
 public static void main(String[] args) {

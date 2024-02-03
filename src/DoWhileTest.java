@@ -1,4 +1,4 @@
-package conditionStatement;
+//package conditionStatement;
 
 public class DoWhileTest {
 	public static void main(String[] args) {

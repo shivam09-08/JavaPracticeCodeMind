@@ -1,4 +1,4 @@
-package ArrayReturnTypeGetterSetter;
+//package ArrayReturnTypeGetterSetter;
 
 public class EmployeeInfoGetterSetter {
 

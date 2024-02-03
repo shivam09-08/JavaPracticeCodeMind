@@ -1,4 +1,4 @@
-package ArrayAdvance;
+//package ArrayAdvance;
 
 public class CountFrequencyOfEachWord {
 	public static void main(String[] args) {

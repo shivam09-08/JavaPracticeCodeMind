@@ -1,4 +1,4 @@
-package ArrayObject;
+//package ArrayObject;
 
 public class Employee {
 	int id;

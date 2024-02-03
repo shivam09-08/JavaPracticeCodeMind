@@ -1,4 +1,4 @@
-package ArrayBasic;
+
 
 public class AverageValue {
 	public static void main(String[] args) {

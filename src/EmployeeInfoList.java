@@ -1,4 +1,4 @@
-package ArrayReturnTypeGetterSetter;
+//package ArrayReturnTypeGetterSetter;
 
 public class EmployeeInfoList {
 	public static void main(String[] args) {
