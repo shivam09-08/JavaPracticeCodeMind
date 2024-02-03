@@ -5,6 +5,7 @@ public class Test {
 		// TODO Auto-generated method stub
 
 		System.out.println("testing");
+		System.out.println("testing again after clone");
 	}
 
 }
