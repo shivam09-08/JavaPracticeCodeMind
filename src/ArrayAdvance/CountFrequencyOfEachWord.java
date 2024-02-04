@@ -3,7 +3,7 @@ package ArrayAdvance;
 
 public class CountFrequencyOfEachWord {
 	public static void main(String[] args) {
-		int arr [] = {2, 2, 3, 4, 3, 4, 2,8,10,1,8,1,10};
+		int arr [] = {2, 2, 3, 4, 3, 4, 2};
 		CountFrequencyOfEachWord obj1 =new CountFrequencyOfEachWord();
 	obj1.countFrequency(arr);	
 	}
