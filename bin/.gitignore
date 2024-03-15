@@ -1,4 +1,3 @@
-/Static/
 /Abstraction/
 /AccessModifier/
 /AceessModifierTest/
@@ -6,6 +5,8 @@
 /ArrayBasic/
 /ControlStatements/
 /Encapsulation/
+/ExceptionHandling/
+/Final/
 /Inheritance/
 /Interface/
 /JavaBasic/
@@ -13,8 +14,10 @@
 /ObjectCreation/
 /Overriding/
 /Polymorphism/
-/SuperThis/
-/UserInput/
-/Final/
+/Static/
 /String/
 /StringBufferAndStringBuilder/
+/SuperThis/
+/ThrowThrows/
+/UserInput/
+/.gitignore
