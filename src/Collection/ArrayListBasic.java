@@ -1,8 +1,9 @@
 package Collection;
 
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
+import java.util.ListIterator;
 
 public class ArrayListBasic {
 	public static void main(String[] args) {
@@ -31,5 +32,32 @@ public class ArrayListBasic {
 			n --;
 		}
 
+		System.out.println("***************************************************************");
+		System.out.println("Iterating ArrayList values using Iterater ");
+		
+		  Iterator<String> it = names.iterator();
+		  while(it.hasNext())
+		  {
+			  System.out.println(it.next());
+		  }
+		  
+
+			System.out.println("***************************************************************");
+			System.out.println("Iterating ArrayList values using ListIterater ");
+			
+			  ListIterator<String> lt = names.listIterator();
+			  while(lt.hasNext())
+			  {
+				  System.out.println(lt.next());
+			  }
+			  
+				System.out.println("***************************************************************");
+				System.out.println("Iterating ArrayList values using ListIterater in backword");
+				
+				  
+				  while(lt.hasPrevious())
+				  {
+					  System.out.println(lt.previous());
+				  }
 }
 }
