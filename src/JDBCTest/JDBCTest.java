@@ -1,3 +1,4 @@
+package JDBCTest;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -43,7 +44,7 @@ public class JDBCTest {
 //                System.out.println("UserId : " + Id
 //                                   + " UserName : " + UserName + " PassWord : " + Password);
 //            }
-            String sql = "insert into library.userinfo values('102','venu','345')";
+            String sql = "insert into library.userinfo values('106','ram','945')";
             ps = connection.prepareStatement(sql);
             ps.execute();
            
