@@ -1,4 +1,4 @@
-package NewStudent;
+package LibraryManagementSystem.src.NewStudent;
 
 //import java.util.Scanner;
 //

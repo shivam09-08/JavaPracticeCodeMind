@@ -1,4 +1,4 @@
-package IssueBook;
+package LibraryManagementSystem.src.IssueBook;
 
 import java.util.Scanner;
 

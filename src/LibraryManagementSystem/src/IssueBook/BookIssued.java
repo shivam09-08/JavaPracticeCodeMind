@@ -1,8 +1,9 @@
-package IssueBook;
+package LibraryManagementSystem.src.IssueBook;
+
 
 import java.util.Scanner;
 
-import NewBook.BookPage;
+import LibraryManagementSystem.src.NewBook.BookPage;
 
 public class BookIssued extends BookPage {
   public static void main(String[] args) {

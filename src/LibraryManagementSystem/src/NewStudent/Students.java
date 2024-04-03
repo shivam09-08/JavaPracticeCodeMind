@@ -1,4 +1,4 @@
-package NewStudent;
+package LibraryManagementSystem.src.NewStudent;
 
 public class Students {
 	int studentId;

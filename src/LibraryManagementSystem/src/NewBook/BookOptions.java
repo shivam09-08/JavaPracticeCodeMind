@@ -1,4 +1,4 @@
-package NewBook;
+package LibraryManagementSystem.src.NewBook;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package NewBook;
+package LibraryManagementSystem.src.NewBook;
 
 public class BookPage {
 	int bookId;
