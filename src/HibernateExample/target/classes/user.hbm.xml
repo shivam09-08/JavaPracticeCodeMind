@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+	<class name="Employee" table="employee">
+		<id name="empid" type="int" column="empid">
+			<generator class="assigned"/>
+		</id>
+		<property name="emp_name">
+			<column name="emp_name"/>
+		</property>
+		<property name="emp_salary">
+			<column name="emp_salary"/>
+		</property>
+		<property name="emp_age" >
+			<column name="emp_age"/>
+		</property>
+		
+		<property name="emp_password" >
+			<column name="emp_password"/>
+		</property>
+	</class>
+</hibernate-mapping>
