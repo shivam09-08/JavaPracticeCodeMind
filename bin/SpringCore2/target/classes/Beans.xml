@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    <bean id ="alw" class="SpringContext.Allowance">
+    <property name="houseRent" value="7000"></property>
+     <property name="wifi" value="500"></property>
+      <property name="cab" value="2000"></property>
+      
+    </bean>
+
+ <bean id ="bfit" class="SpringContext.Benifits">
+    <property name="dinnerVoucher" value="2500"></property>
+     <property name="gameVoucher" value="1200"></property>
+      <property name="healthCheckup" value="FullBody"></property>
+       <property name="insurance" value="Health insurance"></property>
+    </bean>
+
+    <bean id ="Shiv" class="SpringContext.Employee" autowire="byType" >
+    <property name="name" value="Shivam" ></property>
+     <property name="id" value="102"></property>
+      <property name="dep" value="IT"></property>
+       <property name="exp" value="3 years"></property>
+     <!--   <property name="bfit" ref="bfit"></property> -->
+    </bean>
+    
+    
+
+</beans>
